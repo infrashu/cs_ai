@@ -64,3 +64,13 @@ description: LegaseedのInfraパック顧客の定期MTG準備を支援する。
 顧客データや認証情報を公開GitHubリポジトリに保存しない。
 許可された接続先から必要な範囲の情報だけ取得する。
 明示的な承認なく顧客への送信、CRM更新、契約操作を行わない。
+
+## 参照ファイル
+定期MTG準備を行う際は、以下のファイルを必ず読み込んでから分析・提案を行う。
+
+1. `references/data-sources.md`：データの参照先と取得ルール
+2. `references/customer-journey.md`：顧客の現在地と次へ進む条件
+3. `references/decision-rules.md`：課題・施策の優先順位と判断基準
+4. `references/output-templates.md`：定期MTG準備の出力形式
+
+参照ファイルが読み込めない場合はその旨を明示し、確認できた情報のみで暫定案を作成する。
